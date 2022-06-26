@@ -9,3 +9,7 @@
 .bright-glow {
   text-shadow: 0px 0px 10px #38b388;
 }
+
+::selection {
+  text-shadow: 0px 0px 5px #010705;
+}
