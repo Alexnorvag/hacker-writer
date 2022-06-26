@@ -6,8 +6,8 @@ const defaultWriterOptions = (options) => ({
   loadingText: "LOADING",
   overrideSpeed: 75,
   incrementSpeed: 1000,
-  onLoaded: () => {},
   alphabet: writerAlphabet,
+  onLoaded: () => {},
   ...options,
 });
 

@@ -13,7 +13,7 @@ function App() {
   const { letters, loadedPos } = useHackerWriter({
     loadingText: "*STOLEN*PASSWORD*",
     overrideSpeed: 40,
-    incrementSpeed: 750,
+    incrementSpeed: 1000,
     onLoaded: handleWritingFinished,
   });
 
