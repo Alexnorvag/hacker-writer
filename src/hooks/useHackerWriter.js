@@ -78,5 +78,5 @@ export const useHackerWriter = (userOptions) => {
     }
   }, [isLoaded, options]);
 
-  return { letters };
+  return { letters, loadedPos };
 };

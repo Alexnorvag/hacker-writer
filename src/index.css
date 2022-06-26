@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dim-glow {
+  text-shadow: 0 0 15px #288061;
+}
+
+.bright-glow {
+  text-shadow: 0px 0px 10px #38b388;
+}
